@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>University website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="university.html"><img src="images/looooogooo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Columbia University</h1>
+            <p> where academic excellence meets vibrant campus life</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+
+        </div>
+
+    </section>
+
+    <!-- course -->
+    <section class="course">
+
+        <h1>Courses we offer</h1>
+        <p>Explore our diverse range of courses designed to inspire and equip students with the knowledge and skills
+            necessary to succeed in their chosen fields</p>
+        <div class="row">
+            <div class="course-column">
+                <h3>Intermediate</h3>
+                <p>Intermediate courses provide foundational knowledge and skills in various disciplines, preparing
+                    students for specialized study and entry-level positions in their chosen fields</p>
+
+            </div>
+            <div class="course-column">
+                <h3>GRADUATE</h3>
+                <p>Graduate courses offer advanced education and specialized training, equipping students with deeper
+                    expertise and critical thinking abilities to advance their careers or pursue doctoral studies</p>
+
+            </div>
+
+            <div class="course-column">
+                <h3>POST-GRADUATE</h3>
+                <p>Postgraduate courses, at the doctoral level, focus on original research and academic excellence,
+                    fostering innovation and leadership in specialized fields while contributing to the advancement of
+                    knowledge.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+            fostering growth,
+            collaboration, and unforgettable experiences.</p>
+        <div class="row">
+
+            <div class="campus-column">
+                <img src="images/nyuni.jpg">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-column">
+                <img src="images/LONDON.jpg">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-column">
+                <img src="images/netherlands.jpg">
+                <div class="layer">
+                    <h3>NETHERLANDS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- facilities -->
+     <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+            fostering growth,
+            collaboration, and unforgettable experiences.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.avif">
+                    <h3>World class library</h3>
+                    <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+                        fostering growth,
+                        collaboration, and unforgettable experiences.</p>
+
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball1.avif">
+                    <h3>World class library</h3>
+                    <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+                        fostering growth,
+                        collaboration, and unforgettable experiences.</p>
+
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafe1.avif">
+                    <h3>World class library</h3>
+                    <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+                        fostering growth,
+                        collaboration, and unforgettable experiences.</p>
+
+                </div>
+            </div>
+
+     </section>
+
+     <!-- testimonial -->
+
+     <section class="testimonials">
+        <h1>Our facilities</h1>
+        <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+            fostering growth,
+            collaboration, and unforgettable experiences.</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="images/alumni1.jpg">
+
+                    <div>
+                    <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+                       </p>
+
+                        <h3>Caroline Stevens</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+                <div class="testimonials-col">
+                    <img src="images/alumni2.avif">
+                   <div>
+                    <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,
+                        </p>
+                        <h3>Joe Birken</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+            </div>
+            </div>
+
+     </section>
+
+     <section class="cta">
+        <h1>
+            Enroll for various courses anywhere from the world
+        </h1>
+
+        <a href="" class="hero-btn">CONTACT US</a>
+
+     </section>
+
+     <!-- footer -->
+
+     <section class="footer">
+        <h4>About us</h4>
+        <p>Explore our vibrant campuses across the world, where academic excellence meets a supportive community,</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin" ></i>
+            <i class="fa fa-instagram" ></i>
+            
+
+        </div>
+     </section>
+
+    <!-- JavaScript for Toggle -->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+
+</html>
